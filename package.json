@@ -1,14 +1,31 @@
 {
   "name": "qrcode-of-this-site2",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.1",
+  "description": "vue component to show qrcode of this site",
+  "author": {
+    "name": "Dr. Takeyuki UEDA",
+    "email": "ueda@latelierdueda.com",
+    "url": "https://atelierueda.uedasoft.com/"
+  },
+  "homepage": "https://github.com/UedaTakeyuki/qrcode-of-this-site2",
+  "bugs": {
+    "url": "https://github.com/UedaTakeyuki/qrcode-of-this-site2/issues"
+  },
+  "license": "MIT",
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build-bundle": "vue-cli-service build --target lib --name qrcode-of-this-site --formats umd ./src/components/QRcode.vue",
     "lint": "vue-cli-service lint"
   },
+  "main": "./dist/qrcode-of-this-site.umd.js",
+  "files": [
+    "dist/*"
+  ],
   "dependencies": {
     "core-js": "^3.6.5",
+    "qrcode": "^1.5.1",
     "vue": "^2.6.11"
   },
   "devDependencies": {
