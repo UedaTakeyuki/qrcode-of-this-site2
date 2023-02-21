@@ -1,6 +1,6 @@
 {
   "name": "qrcode-of-this-site2",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "vue component to show qrcode of this site",
   "author": {
     "name": "Dr. Takeyuki UEDA",
@@ -25,7 +25,7 @@
     "src/components/QRcode.vue",
     "src/build-entry.js"
   ],
-  "dependencies.bak": {
+  "dependencies": {
     "core-js": "^3.6.5",
     "qrcode": "^1.5.1",
     "vue": "^2.6.11"
