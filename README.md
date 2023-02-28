@@ -1,5 +1,9 @@
 # QRcode of this site
 
+**Vue2** & **Vuetify2** components to show the **qrcode of this site**. The successor of the original [qrcode-of-this-site](https://github.com/UedaTakeyuki/qrcode-of-this-site) for **Vue2** & **Vuetify2**.  
+
+Initially, I was trying to continue development by **separating branches** for Vue2 and Vue3, but I gave it up on the difficulty of having to **remake node_modules that are not under git control** each time I switched branches, and decided to separate the repositories.
+
 <img src="/img/IMG_0228.PNG" width="50%"/>
 
 ## Install 

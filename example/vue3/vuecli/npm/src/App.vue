@@ -1,21 +1,23 @@
 <template>
   <v-app>
     <v-main>
-      <QRcode class="primary"/>
+      <HelloWorld/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import {QRcode} from 'qrcode-of-this-site2'
+import HelloWorld from './components/HelloWorld.vue'
 
 export default {
+  name: 'App',
+
   components: {
-    QRcode,
+    HelloWorld,
   },
 
   data: () => ({
     //
   }),
-};
+}
 </script>
