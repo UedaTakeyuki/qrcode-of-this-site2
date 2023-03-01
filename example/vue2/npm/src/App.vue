@@ -3,7 +3,7 @@
     <v-main>
       <QRcode class="primary">
         <template v-slot:title>
-          けろけろ
+          <div/>
         </template>
       </QRcode>
     </v-main>

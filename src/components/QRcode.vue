@@ -3,7 +3,9 @@
     <v-flex>
       <canvas id="qr"></canvas>
     </v-flex>
-    QR code for this App
+    <slot name="title">
+      QR code for this App
+    </slot>
   </v-layout>
 </template>
 

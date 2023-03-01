@@ -43,3 +43,4 @@ Github [issues](https://github.com/UedaTakeyuki/qrcode-of-this-site/issues) are 
 
 ## History
 - 1.0.0 2023.02.20 forked from qrcode-of-this-site
+- 1.1.0 2023.03.01 add title slot
