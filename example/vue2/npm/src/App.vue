@@ -1,7 +1,11 @@
 <template>
   <v-app>
     <v-main>
-      <QRcode class="primary"/>
+      <QRcode class="primary">
+        <template v-slot:title>
+          けろけろ
+        </template>
+      </QRcode>
     </v-main>
   </v-app>
 </template>
